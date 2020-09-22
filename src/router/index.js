@@ -27,15 +27,39 @@ const routes = [
             component: () => import(/* webpackChunkName: "userinfo" */ '../views/UserInfo/index')
         },]
     },
-    // {
-    //   path: '/about',
-    //   name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    // component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-    // },
-
+    {
+        path: "/post/:id",
+        name: 'Post',
+        component: () => import(/* webpackChunkName: "post" */ '../views/InformationDetail/index')
+    },
+    {
+        path: "/author/:slug",
+        name: 'Author',
+        component: () => import(/* webpackChunkName: "author" */ '../views/author/index'),
+        redirect: '/author/:slug/author/updates',
+        children: [
+            {
+                path: 'author/posts',
+                name: 'AuthorPosts',
+                component: () => import(/* webpackChunkName: "userPost" */ '../views/author/children/authorPosts'),
+            },
+            {
+                path: 'author/updates',
+                name: 'AuthorUpdates',
+                component: () => import(/* webpackChunkName: "userUpdates" */ '../views/author/children/authorUpdates'),
+            },
+        ]
+    },
+    {
+        path: '/charge/program',
+        name: 'ChargeProgram',
+        component: () => import(/* webpackChunkName: "chargeProgram" */ '../views/chargeProgram/index'),
+    },
+    {
+        path: '/search',
+        name: 'Search',
+        component: () => import(/* webpackChunkName: "search" */ '../views/searchPage/index'),
+    }
 ]
 
 const router = new VueRouter({
