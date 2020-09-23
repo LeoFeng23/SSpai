@@ -1,0 +1,111 @@
+{
+  "data": {
+    "id": 62784,
+    "body": "<h2 style=\"margin-left:0px;\"><strong>栏目引言</strong></h2><p style=\"margin-left:0px;\">很多人都会问我，为什么取「少数派」这个名字，听起来永远都做不大的感觉，其实「少数派」的真正内核是每一个追逐梦想，敢于挑战的个体，你可以挑战一篇文章，一个产品，一家创业公司，甚至是不公的命运。他们都是平凡的人，却同样值得尊敬，应该由我来亲自挖掘这些幕后故事。</p><p style=\"margin-left:0px;\">这是一个不定期栏目，如果你也有这样的故事，请直接邮件联系我吧：<a href=\"mailto:m@sspai.com\"><strong>m@sspai.com</strong></a></p><h2 style=\"margin-left:0px;\">本期人物：BlackBoXo</h2><p style=\"margin-left:0px;\">作为一个还没有毕业的大学生，BlackBoXo 已经成为了一名创业者，他发起并主导的《文保在身边》应用，正在参加苹果的移动应用创新大奖赛，而他的另一个身份是少数派高级作者，发表过很多优秀的 App 评测文章，在这篇访谈里，我们尝试寻找创作和创造之间的关系。</p><p style=\"margin-left:0px;\">关联阅读：<a href=\"https://sspai.com/post/62578\">「移动应用创新赛」进入第五届，50 余支团队入围决赛</a></p><figure class=\"image ss-img-wrapper image_resized\" style=\"width:402px;\"><img src=\"https://cdn.sspai.com//2020/09/18/1802a674283cc0539f07f7aa72c567a8.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/18/1802a674283cc0539f07f7aa72c567a8.jpg\"/></figure><h2 style=\"margin-left:0px;\">老麦：作为少数派的作者，先说说你成为作者的经历吧？</h2><p style=\"margin-left:0px;\"><strong>BlackBoXo</strong>：在高考完的暑假，我拥有了人生的第一部手机 iPhone，那时候对手机上的各种 App 产生了极大的兴趣，也因此了解到了少数派这个平台。大一的时候，我试着写了文章投稿，最终成为了撰稿作者，这对当时的我来说是一件很自豪的事。在少数派一开始写的是小游戏的测评，后面也写了即刻、Mono 这类软件的测评。在少数派给 App 写测评的过程中，我渐渐产生了对产品的认知，当时我很看重 App 的一点就是它首先需要是美的，才会吸引人继续使用下去。</p><h2 style=\"margin-left:0px;\">老麦：应该说兴趣是起因，但写作帮你建立产品认知，是什么契机从创作者转变成创造者的角色？</h2><p style=\"margin-left:0px;\"><strong>BlackBoXo</strong>：大一的时候，我把大部分业余时间都花在复旦诗社和诗歌上，还在少数派写了介绍诗歌类 App 的文章。</p><p style=\"margin-left:0px;\">关联阅读：<a href=\"https://sspai.com/post/61861\">我在微博写出了一本诗集，重塑互联网的文学</a></p><figure class=\"image ss-img-wrapper\"><img src=\"https://cdn.sspai.com//2020/09/18/e87ebedadf1b61627d2ef5f72d13ee27.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/18/e87ebedadf1b61627d2ef5f72d13ee27.jpg\"/></figure><p style=\"margin-left:0px;\">大二后，我进入了计算机专业，一直想用专业知识给诗社开发些东西，但一直没有机会落实。同时通过少数派，我了解到了很多的独立开发者，他们做出的许多作品都很精致，我刚开始接触计算机，所做的只是一些课堂练习，还没有自己去设计开发过一个完整作品的能力。</p><p style=\"margin-left:0px;\">当时和诗社的伙伴想参加一个比赛，于是一起讨论做个东西，但讨论了很久，后来突然想到诗社指导老师在朋友圈发的关于文保（即全国重点文物保护单位）的点子，他是一个文化旅行达人，经常在朋友圈发布一些自己去过的文保。</p><p style=\"margin-left:0px;\">文保和景点不同，很多文保根本就是一个完全会被人忽略的小桥、石刻等等。我们本来都在讨论要做一个什么游戏之类的东西，但我们想到还没人系统地对这些文保信息进行归总整理，也没有人做过文保电子导引，我们都觉得这比我们刚开始设想的任何一种游戏更有价值，于是一切就这样开始了。</p><h2 style=\"margin-left:0px;\">老麦：一旦埋下创造的种子，就会想尽办法去达成，这才是最有趣的过程，讲讲文保在身边的产品初心和故事？</h2><p style=\"margin-left:0px;\"><strong>BlackBoXo</strong>：文保其实是个很小的领域，我们最初也没有在这个上面赋予太多梦想。开始就是按照指导老师的需求来进行，作为一个文旅资深爱好者，他的需求其实也在一定程度上代表着我们目标用户的需求。</p><figure class=\"image ss-img-wrapper image_resized\" style=\"width:664px;\"><img src=\"https://cdn.sspai.com//2020/09/18/2fd61cd156506a234434656a2d691cea.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/18/2fd61cd156506a234434656a2d691cea.png\"/></figure><p style=\"margin-left:0px;\">文保在身边想要做的，是为文保的爱好者提供旅行前、旅行中、旅行后的服务。虽然我们的步伐不快，却已经坚持到了第四年，或许正是一直抱着公益的心态，才使我们能走得更久更远。看到别人上传的文保照片，那些文保的名字我很多都未曾听过，但那些照片却吸引着我想去看看。我们用陌生的语言来创造诗意，也从陌生的风景里创造引力。商业化的景点渐渐让人厌倦，从这些文保中，我得以重新发现中国。</p><p style=\"margin-left:0px;\">一开始我是在微信小程序上开发第一个版本，同时我们开始了漫长且艰辛的文保数据收集过程，这些文保列表需要从国家、各地的政府网站去找到，同时这些名录里面的地址都不是详细的地址，我们人工一个个去核实了地址和经纬度，最终将他们呈现在文保大地图上。</p><p style=\"margin-left:0px;\">小程序的版本提供的功能比较简单，主要参考了豆瓣的打卡模式，因为很多文保的爱好者都很喜欢刷保。在做的过程中，我们也了解到有另一个团队在文保领域做了很多年，但都是线下或者出版书籍的模式，我们的小程序推出后，他们在近一年后做了非常类似的小程序，其实这也是证明了我们所做的事情是正确的。</p><figure class=\"image ss-img-wrapper\"><img src=\"https://cdn.sspai.com//2020/09/18/dfa7ef9c0d11fdef826bd82db50a4888.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/18/dfa7ef9c0d11fdef826bd82db50a4888.png\"/></figure><p style=\"margin-left:0px;\">因为还想扩展更丰富的功能，例如社区、商城等等，受限于小程序的限制，我们打算开发 iOS 平台和安卓平台，正好有厉害的设计师朋友愿意无偿帮助我们，为我们设计了很赞的 UI。同时，为了将这件事情做大，我们也开始了更多内容上的运营。在设计产品的过程中，我也借鉴了少数派的很多运营模式，例如作者社群、社区上的运营方式等，在内容上，我们现在每周会收集文保相关的新闻，做每周的新闻周报，同时不定期会推送一些优秀的文化类文章。</p><h2 style=\"margin-left:0px;\">老麦：听起来确实是很有价值的产品，怎样参加苹果应用创新大赛？获得哪些支持？</h2><p style=\"margin-left:0px;\"><strong>BlackBoXo</strong>：恰巧了解到苹果主办的移动应用创新赛，也去听了一下宣讲会，发现无论是比赛本身，还是往年获奖的作品都和我们的理念很接近，强调设计美感以及文化内涵，因此我们也为这个比赛做了很多准备。</p><p style=\"margin-left:0px;\">这个大赛只要报名即可参加，而且在初赛和复赛轮，并不要求有实际的产品，即使只有设想也能通过，因此还是比较宽松的，但是在决赛必须要能够在 iOS 的设备上进行演示。进入决赛的队伍的成员，今年可以获取网易云音乐和西瓜视频的直通面试机会，对于要毕业或者想要实习的同学还是不错的。</p><figure class=\"image ss-img-wrapper\"><img src=\"https://cdn.sspai.com//2020/09/18/407fac468b557e897a7b613fc4d5b7c4.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/18/407fac468b557e897a7b613fc4d5b7c4.png\"/></figure><p style=\"margin-left:0px;\">同时官方会组织培训，其中包括项目和技术的一对一培训，会对作品进行指导和答疑。同时还有所有决赛队伍的简短介绍，然后评选最佳人气奖，这也是了解大家作品的一个机会，有很多作品都很有意思。</p><p style=\"margin-left:0px;\">这次培训中，我觉得受益最多的是邀请了大拿科技的创始人来做的演讲，大拿科技推出了「形色」这个火爆的识花软件。他在演讲中通过自身的经历和作品，分享了很多创业路上的干货，对我也有很多启发。其中提到的产品需要具有的特质「高频、刚需、普世」，如果这三个都不具备的话，就不必要再做下去了。我在做文保在身边的过程中，其实也有过很多自我怀疑，因为文保这个领域真的很小，我们做的东西又会有多少人来使用呢。</p><h2 style=\"margin-left:0px;\">老麦：如果大家都追求高频、刚需、普世，少数派也不会存在了，未来怎么规划这个产品的发展路径？以及自己再其中的角色？</h2><p style=\"margin-left:0px;\"><strong>BlackBoXo</strong>：我一直是这个产品的主导者，包括产品功能的设计和开发都主要由我完成。未来，我们想要做的几件事包括社区的运营和推广，这个是维持产品持续性必要的一点，同时也是能够形成壁垒的必要的一点。以及寻找和政府、地方旅游局的一些合作机会，同时也期望能得到更多的资金和人力支持。</p><figure class=\"image ss-img-wrapper\"><img src=\"https://cdn.sspai.com//2020/09/18/065788f76ecaac25c795a48c3c202c30.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/18/065788f76ecaac25c795a48c3c202c30.png\"/></figure><p style=\"margin-left:0px;\">我们准备推进数字文保的项目，主要内容是指通过 BIM 数据孪生技术，对危重/濒死/危险结构（木质等）/损害严重的文保单位建立数字孪生档案。数据孪生成果既作为珍贵的数字研究资料保存，又能成为文保在身边虚拟文保展堂（VR、AR 云观保）的重要组成部分。在逐步完成项目的过程中，反哺了文保旅游参访，给 App 注入了长久的活力。这个项目将作为未来很长时间内的重点。</p><h2 style=\"margin-left:0px;\">老麦说几句</h2><p style=\"margin-left:0px;\">其实少数派几千名作者当中，参与创造产品的还有很多，包括少数派编辑也用业余时间打造了带壳截图、Cuto 壁纸这些小工具。我始终觉得，创作是一个很好的桥梁，它能帮你传递想法，甚至更好的洞悉需求，建立产品创造的基础，随着开发工具的降维普及，我们更加需要的是对产品的理解和规划能力。</p><p style=\"margin-left:0px;\">所以，请保持写作输出的习惯，不管是用来梳理产品逻辑，还是传播产品理念，甚至获取资本资源，这是你变成创造者的基础能力。</p><p style=\"margin-left:0px;\"><strong>关联阅读：</strong></p><ul><li><a href=\"https://sspai.com/post/62082\">老麦访谈｜20 年的 HI-PDA 论坛，我问了站长几个问题</a></li><li><a href=\"https://sspai.com/post/61795\">老麦访谈｜汽车成了我的新双腿，自由让我拥有一切</a></li></ul><p>&gt; 下载少数派 <a href=\"https://sspai.com/page/client\">客户端</a>、关注 <a href=\"https://sspai.com/s/J71e\">少数派公众号</a>，发现更多有趣的新玩意 🎮</p><p>&gt; 特惠、好用的硬件产品，尽在 <a href=\"https://shop549593764.taobao.com/?spm=a230r.7195193.1997079397.2.2ddc7e0bPqKQHc\">少数派 sspai 官方店铺</a> 🛒</p>",
+    "keywords": "开发者",
+    "summary": "作为一个还没有毕业的大学生，BlackBoXo 已经成为了一名创业者，他发起并主导的《文保在身边》应用，正在参加苹果的移动应用创新大奖赛，而他的另一个身份是少数派高级作者，发表过很多优秀的 App 评测文章，在这篇访谈里，我们尝试寻找创作和创造之间的关系。",
+    "summary_weibo": "作为一个还没有毕业的大学生，BlackBoXo 已经成为了一名创业者，他发起并主导的《文保在身边》应用，正在参加苹果的移动应用创新大奖赛，而（来自 @少数派sspai）全文：",
+    "title": "老麦访谈｜从创作到创造的自然过程，文保在身边",
+    "morning_paper_title": null,
+    "banner": "https://cdn.sspai.com/2020/09/18/533d7047826d4b7338318180b047cd00.jpeg",
+    "author": {
+      "id": 0,
+      "slug": "michael",
+      "avatar": "2017/04/06/064a7973c2c467708092d7c8b423be9a.jpg",
+      "nickname": "老麦",
+      "followed": false,
+      "bio": "少数派首席打杂，有任何建议随时私信我",
+      "user_flags": [
+        {
+          "id": 3,
+          "key": "role_admin",
+          "name": "少数派成员",
+          "description": "少数派成员",
+          "icon": "https://cdn.sspai.com/2020/02/22/2842ae88fae62da0ef135b933cc58a2f.png",
+          "url": "",
+          "status": 1,
+          "weight": 84,
+          "color": "#4A4A4A",
+          "type": 2,
+          "sub_type": 3,
+          "object_id": 0
+        }
+      ],
+      "user_badges": [
+        {
+          "id": 1,
+          "key": "power_plus",
+          "name": "Power+ User",
+          "description": "Power+ User",
+          "icon": "https://cdn.sspai.com/temp/badge/badge_power_user_expire@2x.png",
+          "url": "https://sspai.com/series/9",
+          "status": 2,
+          "weight": 95,
+          "color": "#CFC8C8",
+          "type": 1,
+          "sub_type": 1,
+          "object_id": 70
+        }
+      ],
+      "user_plan_flags": null
+    },
+    "author_seconds": [],
+    "tags": [
+      {
+        "id": 7814,
+        "title": "开发者"
+      }
+    ],
+    "rtime": "09月18日",
+    "show_content_table": false,
+    "article_count": {
+      "comment_count": 5,
+      "like_count": 33,
+      "views_count": 0,
+      "show_views_count": false
+    },
+    "article_column": null,
+    "column_author": false,
+    "is_contributed_by_signed_writer": false,
+    "article_advertisement": null,
+    "promote_title": "老麦访谈｜从创作到创造的自然过程，文保在身边",
+    "promote_image": "https://cdn.sspai.com/2020/09/18/533d7047826d4b7338318180b047cd00.jpeg",
+    "allow_comment": true,
+    "sign_contract_request_fields": "少数派首席打杂，有任何建议随时私信我",
+    "pub_date": "",
+    "thread": false,
+    "comment_file_on": false,
+    "article_follow_up_admin": {
+      "id": 0,
+      "slug": "michael",
+      "nickname": "老麦"
+    },
+    "is_pay": false,
+    "is_free": true,
+    "series": null,
+    "special_columns": [],
+    "pre_artitle_id": 0,
+    "pre_article_title": "",
+    "next_artitle_id": 0,
+    "next_article_title": "",
+    "liked": false,
+    "favorited": false,
+    "probation": false,
+    "comments": null,
+    "video_info": "",
+    "video_code": "",
+    "video_platform_type": 0,
+    "post_type": 1,
+    "released_time": 1600416138,
+    "important": 1,
+    "corner": null,
+    "is_preview": false,
+    "article_limit_free": false,
+    "article_limit_free_stime": 0,
+    "article_limit_free_etime": 0,
+    "title_prefix": "",
+    "author_series_article_manage_on": false,
+    "copyright": true
+  },
+  "error": 0
+}

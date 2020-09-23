@@ -1,0 +1,127 @@
+{
+  "data": {
+    "id": 62778,
+    "body": "<p>Apple Watch 的健康特性，一直是苹果重点打造和宣传的亮点。从心率监测到心电图（简称 ECG，大陆未开放），从摔倒检测到环境音量测量，每一代 Apple Watch 都在不断增加健康相关的特性。最近发布的 watchOS 7 和 Apple Watch Series 6，则带来了睡眠监测与血氧监测两大健康新功能。</p><p>这篇文章，我们就来了解一下，Apple Watch Series 6 的血氧监测。</p><p><strong>关联阅读：</strong><a href=\"https://sspai.com/post/62719\">戴上 Apple Watch 监测你的睡眠质量：watchOS 7 值得关注的新功能</a></p><h2>血氧是什么</h2><p>氧气是人类生存必不可少的条件，从我们吸入空气开始，氧气就通过血液输送到我们身体的各个器官去供氧。当然，氧气也需要交通工具，它搭的「车」叫做血红蛋白，是红细胞内负责运输氧气的一种蛋白质。</p><figure class=\"image ss-img-wrapper image_resized\" style=\"width:300px;\"><img src=\"https://cdn.sspai.com//2020/09/18/2348a66cdfbb28fa53bf66dc261ebddb.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/18/2348a66cdfbb28fa53bf66dc261ebddb.png\"/><figcaption>红细胞里面有血红蛋白（角丝状物体），一个可以携带四个氧分子（蓝色）（来源：<a href=\"http://blogs.ubc.ca/centreforbloodresearch/2012/11/19/who-wants-to-help-the-immune-system-overcome-cancer-ido/\">The Centre for Blood Research</a>）</figcaption></figure><p>一般来说，一个血红蛋白可以搭乘四个氧分子，这时候，「满载」的血红蛋白被称为氧饱和血红蛋白。那么，Apple Watch 的血氧监测，<strong>测量的其实是一个百分比</strong>，即血氧饱和度，就是氧饱和血红蛋白在所有血红蛋白中的占比。<strong>正常人的血氧饱和度在 95%–100% 之间</strong>，如果低于这个值，往往说明外部环境氧气不足，或者用户本身的健康出了问题。特别是当氧饱和度低于 90%，就值得引起重视了。</p><h2>什么人需要监测血氧</h2><p>如果已经因为健康问题住院，医院自然有医疗级的设施来监测血氧。而 Apple Watch 的使用场景是日常生活，那么，在哪些情况下，又是什么人可以获益于 Apple Watch 随时随地的血氧监测呢？</p><h3>1. 新冠肺炎 COVID-19 疑似者或居家患者</h3><p>血氧饱和度是区分肺炎与普通感冒的一个有效指征。肺部感染的患者，血氧饱和度往往会出现问题，这一点当然也适用于新冠肺炎。国内的疫情已经得到了基本的控制，但不要忘了在许多国家，疫情仍然还在蔓延，且医疗系统的支撑能力已经崩溃，许多患者只能居家隔离。</p><p>在这种情况下，如果你是 COVID-19 的居家疑似感染者或患者，如果发现自己的血氧饱和度突然走低，就意味着需要寻求外界医疗帮助了。</p><h3>2. 糖尿病、心脏病、呼吸疾病等慢性病患者</h3><p>对于糖尿病、心脏病以及呼吸疾病等这类患者，由于慢性病的病程较长，且往往是不可逆的，需要日常生活保持良好的习惯，来减缓病情的发展与恶化。这时候，体征的监测是非常重要的。</p><p>在院外，心率、血压、体温都是常见的自我监控指标。相对于这几个指标，血氧其实也是非常重要的，只不过以前受限于测量设备和外部条件，并没有普及开来。而现在随着越来越多的智能穿戴设备加入了血氧监测的功能，对于慢性病患者来说，这个指标的监测也变得容易了。</p><p>通过记录这些指标，不仅可以在院外更好地监控自己的健康，还可以根据指标的恶化情况，及时去医院复诊检查。同时，这些数据的趋势变化，对于医生来说也是非常重要诊断和调整治疗方案的判断依据。</p><h3>3. 运动爱好者</h3><p>和慢性病患者一样，运动爱好者，在运动时也非常有必要监控自己的生命体征，以调整运动的强度和频率。特别是进行高强度的运动时，很容易出现氧气供应不足。此外，对于登山爱好者，或者高原旅游者来说，由于海拔和地理位置的关系，外部的氧气含量可能会低于正常值 ，这时候血氧监测也是非常有必要的。</p><p>除此之外，如果健健康康的普通人，血氧监测有必要吗？虽然获益程度可能不及以上三类人群，但是作为方便量化自己身体健康情况的一种手段，可以把 Apple Watch 的新功能当作是锦上添花。就像很多自以为健康的人群，通过 Apple Watch 的心电图功能，发现了自己的房颤一样，<strong>血氧监测也可能提供及时的健康预警</strong>。</p><h2>Apple Watch 是如何监测血氧的</h2><p>Apple Watch 早早就实现了心率监测的功能，如果你留心的话，在监测心率时，手表背面会闪烁绿光。现在，Apple Watch Series 6 不仅会发绿光，还会放红光了。</p><p>要理解监测血氧的原理并不难。Apple Watch Series 6 的表盘背部，<strong>新增了红光和红外光发射器。通过这两种光源，Apple Watch 可以测定血液中，氧饱和血红蛋白的占比</strong>。</p><figure class=\"image ss-img-wrapper image_resized\" style=\"width:550px;\"><img src=\"https://cdn.sspai.com//2020/09/18/1a374d6316c2e0f6279834bf95895084.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/18/1a374d6316c2e0f6279834bf95895084.png\"/><figcaption>Apple Watch 背部新增的血氧监测传感器（来源：Apple）</figcaption></figure><p>血红蛋白在满载 4 个氧分子的时候，颜色会更鲜红一些。而等到氧分子「下车」了，血红蛋白也变得黯淡了一些。这种颜色的差异，也会体现在对于红外和红外光两种光源的反射率上面。</p><p>如这两个动图所示，氧饱和血红蛋白因为偏红，在接受红光照射时，红光的反射率较高，而红外光的反射率较低；反之，当血红蛋白含氧不足时，红色的反射率较低，而红外光的反射率较高。通过分析对这两种光源的不同反射率，就能得到血氧饱和度了。</p><figure class=\"image ss-img-wrapper\"><img src=\"https://cdn.sspai.com//2020/09/18/bd6e0fe85ce62220a931b4da11d80c03.gif\" data-original=\"https://cdn.sspai.com//2020/09/18/bd6e0fe85ce62220a931b4da11d80c03.gif\"/><figcaption>不同血氧含量对红光和红外光的反射情况（来源：<a href=\"https://www.garmin.com.cn/garmin-technology/pulse-ox/\"> Garmin</a>）</figcaption></figure><h2>如何使用</h2><p>在 Apple Watch Series 6 中，新增了血氧监测 app。和心率监测的 app 很像，只需要随时打开，就能监测血氧。整个过程只需要 15 秒的时间，就会得到血氧的百分比。</p><figure class=\"image ss-img-wrapper\"><img src=\"https://cdn.sspai.com//2020/09/18/03faec5e5d8347d349c3f9507a21c4b2.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/18/03faec5e5d8347d349c3f9507a21c4b2.jpg\"/><figcaption>Series 6 新增的血氧监测 app（来源：Apple）</figcaption></figure><p>除此之外，像心率一样，血氧监测也支持被动监测。你不需要主动打开 app，Apple Watch 也会定期自动测量你的血氧水平并记录下来。</p><p>由于需要特定的硬件支持，只有最新款的 Series 6 系列支持这个功能，本次发布的 Apple Watch SE 以及更早版本的 Apple Watch 都是无法使用血氧监测功能的。</p><p>在能够监测心率、心电图、血氧之后，也许下一个激动人心的健康功能，就是无创血糖监测了。这似乎并不是遥不可及的事情，早在 2018 年，AppleInsider 就发现苹果申请了相关的<a href=\"https://appleinsider.com/articles/18/08/23/apple-patent-suggests-work-on-non-invasive-glucose-monitoring-tech\">技术专利</a>，如果 Apple Watch 能够监测血糖，势必将造福更多人群。</p><p>&gt; 下载少数派 <a href=\"https://sspai.com/page/client\">客户端</a>、关注 <a href=\"https://sspai.com/s/J71e\">少数派公众号</a>，第一时间了解苹果新硬件 &amp; 新系统 📱</p><p>&gt; 特惠、好用的硬件产品，尽在 <a href=\"https://shop549593764.taobao.com/?spm=a230r.7195193.1997079397.2.2ddc7e0bPqKQHc\">少数派 sspai 官方店铺</a> 🛒</p>",
+    "keywords": "血氧,watch,手表,测量,监测,科普,series",
+    "summary": "Apple Watch 的健康特性，一直是苹果重点打造和宣传的亮点。",
+    "summary_weibo": "AppleWatch的健康特性，一直是苹果重点打造和宣传的亮点。从心率监测到心电图（简称ECG，大陆未开放），从摔倒检测到环境音量测量，每一（来自 @少数派sspai）全文：",
+    "title": "科普 | Apple Watch Series 6 的血氧监测有什么用？",
+    "morning_paper_title": null,
+    "banner": "https://cdn.sspai.com/article/ae3838e8-ea2c-e277-3a6e-6ff152ab8765.jpg",
+    "author": {
+      "id": 0,
+      "slug": "hpx14j8g",
+      "avatar": "attachment/origin/2014/09/07/176159.jpg",
+      "nickname": "子不语Rex",
+      "followed": false,
+      "bio": "【子不语】微信公众号：ZiChat",
+      "user_flags": [
+        {
+          "id": 4,
+          "key": "professional_writer",
+          "name": "专业作者",
+          "description": "专业作者",
+          "icon": "https://cdn.sspai.com/2020/02/22/c9635cc7b3536f1661ccd86854aef073.png",
+          "url": "",
+          "status": 1,
+          "weight": 82,
+          "color": "#FDBB4E",
+          "type": 2,
+          "sub_type": 2,
+          "object_id": 0
+        }
+      ],
+      "user_badges": [
+        {
+          "id": 1,
+          "key": "power_plus",
+          "name": "Power+ User",
+          "description": "Power+ User",
+          "icon": "https://cdn.sspai.com/temp/badge/badge_power_user_expire@2x.png",
+          "url": "https://sspai.com/series/9",
+          "status": 2,
+          "weight": 95,
+          "color": "#CFC8C8",
+          "type": 1,
+          "sub_type": 1,
+          "object_id": 70
+        }
+      ],
+      "user_plan_flags": null
+    },
+    "author_seconds": [],
+    "tags": [
+      {
+        "id": 18797,
+        "title": "热门文章"
+      },
+      {
+        "id": 18793,
+        "title": "量化自我"
+      },
+      {
+        "id": 1103,
+        "title": "健康"
+      },
+      {
+        "id": 18756,
+        "title": "科普"
+      },
+      {
+        "id": 18816,
+        "title": "Apple Watch"
+      }
+    ],
+    "rtime": "09月18日",
+    "show_content_table": false,
+    "article_count": {
+      "comment_count": 36,
+      "like_count": 56,
+      "views_count": 0,
+      "show_views_count": false
+    },
+    "article_column": null,
+    "column_author": false,
+    "is_contributed_by_signed_writer": false,
+    "article_advertisement": null,
+    "promote_title": "科普 | Apple Watch Series 6 的血氧监测有什么用？",
+    "promote_image": "https://cdn.sspai.com/article/ae3838e8-ea2c-e277-3a6e-6ff152ab8765.jpg",
+    "allow_comment": true,
+    "sign_contract_request_fields": "【子不语】微信公众号：ZiChat",
+    "pub_date": "",
+    "thread": false,
+    "comment_file_on": false,
+    "article_follow_up_admin": {
+      "id": 0,
+      "slug": "eamesliu",
+      "nickname": "文刀漢三"
+    },
+    "is_pay": false,
+    "is_free": true,
+    "series": null,
+    "special_columns": [],
+    "pre_artitle_id": 0,
+    "pre_article_title": "",
+    "next_artitle_id": 0,
+    "next_article_title": "",
+    "liked": false,
+    "favorited": false,
+    "probation": false,
+    "comments": null,
+    "video_info": "",
+    "video_code": "",
+    "video_platform_type": 0,
+    "post_type": 1,
+    "released_time": 1600398618,
+    "important": 1,
+    "corner": null,
+    "is_preview": false,
+    "article_limit_free": false,
+    "article_limit_free_stime": 0,
+    "article_limit_free_etime": 0,
+    "title_prefix": "",
+    "author_series_article_manage_on": false,
+    "copyright": true
+  },
+  "error": 0
+}

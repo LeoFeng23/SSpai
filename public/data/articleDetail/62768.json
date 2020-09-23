@@ -1,0 +1,104 @@
+{
+  "data": {
+    "id": 62768,
+    "body": "<p>北京时间 9 月 17 日凌晨 4:00，索尼以线上方式举办了「PlayStation 5 Showcase」，终于是不负众望，痛痛快快地给出了 PS5 的零售价，回应了亿万玩家对游戏阵容的关切。</p><p>直播活动中，索尼相当务实地展示了一批今明两年内可以玩到的重磅大作，以《最终幻想 16》《恶魔之魂》《战神：诸神黄昏》为代表，共计 12 部游戏新作，既有老面孔、也有新惊喜；为 PS Plus 会员准备的新权益「PlayStation Plus Collection」也于直播末段亮相，持有会员资格的用户自 PS5 发售首日起就可以游玩一批索尼精选的 PS4 世代经典大作；整场发布会最重要的段落当属 PS5 价格信息的正式公开，最终，带光驱的标准版 PS5 定价 499 美元，不带光驱的 PS5 数字版定价达到惊人的 399 美元。</p><p>注：文末附有本次发布会全流程的回顾，欢迎感兴趣的读者查看。</p><hr/><p>在索尼亮出以上这些情报后，我们终于能够更透彻地对比分析索尼、微软为「次世代第一仗」准备的弹药和策略。要想更进一步洞悉索尼为 PS5 规划的定价、商法，我们得把时间先往前倒一些，先看看 PS5 与竞品 XSX/XSS 在硬件上的对比。</p><h2>对比竞品，硬件有亏有赢</h2><p>本世代伊始，索尼、微软就都不约而同地将硬件架构换成了与 PC 一致、更主流的 X86 架构，PS4 和 Xbox One 都变得更像是专门为游戏定制的小型台式机，而次世代的 PS5 和 XSX 其实比上代更服从这一规律。</p><figure class=\"image ss-img-wrapper\"><img src=\"https://cdn.sspai.com//2020/09/17/42ce31b9f35cfe871196709752f84176.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/17/42ce31b9f35cfe871196709752f84176.jpg\"/></figure><p>处理器方面，两方均采用了 AMD Zen 2 架构 8 核主频 3.5GHz 的 CPU，性能接近于 Ryzen 3700 系列。得益于全新的架构设计、7nm 的工艺，Zen 2 的多核性能提升很大，成功反杀了英特尔的同代产品；因此，优秀的多核性能，以及在满负荷下相对稳定的温度，使得 Zen 2 成为了家用机近乎完美的选择。多提一句，虽然 10 月份 AMD 就要发布更新的 Zen 3 架构处理器，但它相较于 Zen 2 可能不会有太大的性能提升，而且 CPU 也不太可能成为影响游戏性能的瓶颈，所以不用太为没用上新款而担忧。</p><p>接下来看显卡，这是游戏主机最重要的硬件。两方都采用了 AMD 即将于 10 月发布的 RDNA 2 架构显卡，支持 4K@60FPS，分辨率最高可达 8K，也可以支持较低分辨下的 120FPS；横向比较，PS5 和 XSX 的浮点运算性能数值略有差异，单看纸面性能，PS5 的 36 核心 @2.23 GHz 10.3 teraflops 比起 XSX 的 52 核心 @1.83 GHz 12 teraflops 稍有逊色，这一性能差异大约是 RDNA 2 架构下两款相邻定位显卡的差距（如 RX 5600 vs RX 5700 或者 RTX 2070 vs RTX 2080）。但是纵向来看，我们也不用为 PS5 感到遗憾。虽然还不知道 RDNA 2 架构显卡的详细规格，但从已公开的信息能看出，PS5 显卡的性能接近 Radeon RX 5700（如果你更熟悉英伟达显卡，请对标 RTX 2070），比起上一代 PS4 Pro 的 4.9 teraflops（接近 RX 470 或 GTX 1650）已有近三倍的提升。</p><p>不过笔者认为，玩家们其实不必太纠结于这部分性能数据差异，现在公布的浮点数运算能力（FLOPS：Floating point operations per second）只是两款主机显卡运算能力的上限，游戏基本上也不会随时都让显卡满负荷运转，这也不是决定显卡性能的唯一指标，再加上开发商针对主机的专门优化，PS5 完全能实现与 XSX 相匹敌的性能体验，而且两者无疑都高于当前家用 PC 的平均水平，在 3A 大作上实现极佳的游戏画面不会是问题，可能唯一值得怀疑的就是，这代显卡能否一路撑到 PS5 生命周期的末尾罢了。</p><figure class=\"image ss-img-wrapper\"><img src=\"https://cdn.sspai.com//2020/09/17/249e38fc6b16487280f6c504c12454b6.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/17/249e38fc6b16487280f6c504c12454b6.jpg\"/></figure><p>然而，PS5 手上还有一张足以掩盖显卡性能参数小劣的杀手锏，那就是意义非凡的<strong>超高速 SSD</strong>。本世代主机刚发布时，SSD 容量小、价格贵，尚未成为主流。初版 PS4 和 Xbox One 缓慢的读盘速度经受着越来越多复杂场景的洗礼，游戏载入愈发折磨玩家的耐心，还倒逼了《怪物猎人：世界（Monster Hunter: World）》这样的游戏开发预载入技巧，以使玩家等待载入的体验更加平滑。简单的硬盘替换其实并不能根治这个系统性问题，因为主板上 SATA 接口的限制，游戏开发时也是针对机械硬盘做的设计，即使玩家自己换了 SATA 接口的 SSD，读盘时间的缩减也是比较有限的。</p><p>随着存储设备近年来的高速发展，NVMe SSD 成为了新世代主机当仁不让的选择，PS5 更是采用了基于 PCIe 4.0 的 NVMe SSD；目前常见的 PCIe 3.0 NVMe SSD 速度约为 3.5 GB/s，PS5 的 SSD 读写速度则达到了恐怖的 5.5 GB/s。更快的读取速度，意味着游戏可以支持更流畅的复杂场景切换，读取时间将被猛力扼杀，各类游戏——尤其是大型 3D 游戏——的沉浸体验都将能变得更加连贯，量变将引起质变。</p><figure class=\"image ss-img-wrapper\"><img src=\"https://cdn.sspai.com//2020/09/17/002076d43ad903e4e90770c920a28669.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/17/002076d43ad903e4e90770c920a28669.jpg\"/></figure><figure class=\"image ss-img-wrapper\"><img src=\"https://cdn.sspai.com//2020/09/17/baeefdd7a40c7efa49cc109d705c4c93.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/17/baeefdd7a40c7efa49cc109d705c4c93.jpg\"/></figure><p>从官方用来「炫技」的 PS5 首发期作品《瑞奇与叮当：裂痕（Ratchet &amp; Clank: Rift Apart）》的演示中我们能看到，在超高速 SSD 的支撑下，主角可以在极短时间里穿梭于多个完全不同的异世界，这在过去是很难想象的。在今天早上放出的那些预告中，从《使命召唤：黑色行动 冷战》播放的段落中我们也能明显感受到场景切换更加灵动的苗头，而这还是一款跨平台的游戏，并非为 PS5 定制了关卡设计；随着 PS5 性能被逐渐吃透，宽裕的读写性能可以支持什么样的金点子，最终能为玩法设计空间的拓展带来多少红利，解放整个游戏工业的想象力，相当值得期待。</p><h2>后手出奇招，现在是 $399 vs $499 了</h2><p>仔细对标分析 PS5 和 XSX 的硬件就能看出，同档配置家用 PC 的市场价应该是 2-3 倍于这两台主机的，很明显，索尼和微软还是采用了「主机亏本、游戏回本」的老策略，主机的定价没有拘泥于单套硬件的毛利率，而是非常倚重价格背后的战略意义：如何用性价比把更多人拥入自己的阵营。</p><p>通常来看，很大一批电子产品消费者会期待新一代的产品保持和上一代产品首发时一样的价格，而通货膨胀、相关经营成本的上升又推动着厂商选出合适的时机涨价；无疑，PS、Xbox 双双进行大幅更新换代就是这样的天赐良机，同时，这一轮关键的首发定价对双方来说也是非常棘手考验。目前来看，后手出招的索尼似乎是拔得了头筹。</p><figure class=\"image ss-img-wrapper\"><img src=\"https://cdn.sspai.com//2020/09/17/23e27c4479bcfa4a90af5f66760bdb29.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/17/23e27c4479bcfa4a90af5f66760bdb29.jpg\"/></figure><p>微软在几周前率先公布了 XSX/XSS 的定价，XSX 作为旗舰机型保持了 Xbox One 当年的首发价 499 美元，图像性能低至 4 teraflops 的 XSS 定出了 299 美元的「白菜价」；反观索尼一边，光驱版 PS5 定价与 XSX 持平，数字版保持了 PS4 的首发价 399 美元，平心而论，这两个档次的价差可谓非常「离谱」，因为常识告诉我——光驱不值 100 美元。</p><p>所以，我几乎能肯定，索尼是在刻意制造价差引导消费人群，把聚光灯打给数字版的 PS5：</p><ul><li>PS5 两个版本之间的运算性能没有任何区别，这和 XSX/XSS 之间的关系有天壤之别，而 XSS 看起来更像是为拓展云游戏和订阅服务而生的终端机。</li><li>数字版 PS5 被索尼捧成了阵中的主力，而根据前文的分析，PS5 在显卡上与 XSX 确实有一档的差距，是这 100 美元价差可以覆盖的。</li></ul><p>这样一来，对那些不介意数字版游戏缺点的玩家来说，这场次世代价格战变成了「$399 的 PS5」对「$499 的 XSX」，你猜怎么着，这集我看过，可不就是 PS4 对 Xbox One 的首发大战？微软那次可是吃了大亏。不过，这次是 XSX 性能更好，与上次「$399 vs $499」大战的情况刚好相反，所以双方这次如何拉锯（消费者又能在商战中薅多少羊毛），还是很值得观望的。</p><figure class=\"image ss-img-wrapper\"><img src=\"https://cdn.sspai.com//2020/09/17/982d69c0dcbb31e6628f20bcb71745b7.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/17/982d69c0dcbb31e6628f20bcb71745b7.jpg\"/></figure><p>另外，对数字版的力推其实也体现了 PlayStation 品牌调整供应链的野心。对索尼来说，数字版游戏没有光盘成本、仓储物流费用、零售商分成，将可能把更多利润留在索尼；所谓英雄所见略同，微软在 XSS 上做的其实也是相同的尝试，但大幅削减的性能到底能撑到何种地步，笔者心里其实是打了个问号的。</p><h2>关于游戏阵容</h2><p>硬件是「容器」，内容是「灵魂」。毋庸置疑，持续不断、引人入胜的内容是硬件平台笼络人气的重要基石之一；索尼自己应该最清楚这个道理的之一，我们都知道 PlayStation Vita 折戟的故事，纵有同时代傲人的硬件性能，也未能打破「游戏内容匮乏、销量不佳」的恶性循环。</p><p>而更进一步说，独占游戏又在里面扮演着更为重要的角色，尤其是在硬件架构逐步趋同（不同厂商之间、主机与 PC 之间）、第三方引擎持续壮大的今天，正是独占游戏在不懈构筑硬件平台的「护城河」，抵消设备性能的缺陷。</p><p>在索尼、微软两家之间，PS4、Xbox One 的这一个世代里，索尼显然是对独占内容更尽心的一方。笔者使用 Gematsu.com 所做的本世代独占游戏数据做了一番粗略统计，剔除主机独占、限时独占、独占游戏内容，PS4 平台的独占游戏超过了 350 款，大约是 Xbox One 平台的六倍。换一个角度看，可能这也是索尼获取竞争优势的必由之路，因为还坐拥 Windows 生态垄断地位的微软实际上已经换了一套「打通全平台」的新商法，类似的竞争格局想必还会在次世代延续，因此，优质的独占游戏可能依然会是 PS5、 PlayStation 品牌壮大的力量源泉。</p><p>要想保障独占内容的质量，第一方工作室的力量是不可或缺的，而索尼也确实在这个更新换代的关键节点拿出了强化第一方力量的举措，于今年 5 月公布了 PlayStation Studios 品牌，随 PS5 的推出而启用，成为顽皮狗、Guerrilla Games 等知名工作室统一对外的又一块招牌。</p><figure class=\"image ss-img-wrapper\"><img src=\"https://cdn.sspai.com//2020/09/17/1c1bc08287472536c8572d59e246a5b8.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/17/1c1bc08287472536c8572d59e246a5b8.jpg\"/></figure><p>在过去的几年里，微软已经树起了 Xbox Games Studio 这块整合了第一方工作室的招牌，不出意外的话，这也应该是索尼学习借鉴的对象之一；虽然索尼到今年才正式搭起了这个品牌，但笔者个人猜测，索尼已经从旗下第一方的通力合作中尝到了甜头，小岛秀夫遍访索尼全球工作室、集合优质开发资源做出的《死亡搁浅（Death Stranding）》就是一个相当好的范例，因此，我也相当好奇 PlayStation Studios 的合力还能否带来新花样。</p><p>今天的发布会上，第一方的声音相对弱小，PlayStation Studios 只有三家亮相，其中 Santa Monica Stuidio 的《战神》还是只有 Logo 的「期货」，期待其他第一方能在不久的将来早日捧出自家的「护航」大作。</p><figure class=\"image ss-img-wrapper\"><img src=\"https://cdn.sspai.com//2020/09/17/57be1f8069c5c4a8fa5af5d19f2d3a08.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1\" data-original=\"https://cdn.sspai.com//2020/09/17/57be1f8069c5c4a8fa5af5d19f2d3a08.jpg\"/></figure><h2><strong>附：发布会要点回顾</strong></h2><p>本次发布会节奏相当紧凑，将近一个小时的直播里几乎塞满了游戏预告，就让我们按时间顺序回顾一下：</p><h3><strong>《最终幻想 16（FINAL FANTASY XVI）》</strong></h3><iframe class=\"ss-videoIframe\" src=\"//player.bilibili.com/player.html?bvid=BV1Jv411C7dx\"> </iframe><p>第一个亮相就是临近发布会前甚嚣尘上的《最终幻想 16》，虽然标题画面露得比较晚，但从熟悉的建模风格、中途插入的《水晶序曲》曲调中已经能猜出个七八分。本作为 ARPG，2021 年登录 PlayStation 5（主机限时独占）和 PC 平台，由吉田直树担任制作、高井浩担任导演，两人都是《最终幻想 14》项目的主心骨。</p><h3><strong>《漫威蜘蛛侠：迈尔斯·莫拉莱斯（Marvel&#39;s Spider-Man: Miles Morales）》</strong></h3><iframe class=\"ss-videoIframe\" src=\"//player.bilibili.com/player.html?bvid=BV1MD4y1o7cp\"> </iframe><p>公布了一段 7 分钟左右的全新实机演示，重点展示了一场敌人众多、大量场景破坏、气势恢宏的战斗，也让我们见识了一番迈尔斯花哨的战斗技巧。本作的故事线位于《漫威蜘蛛侠》本体及 DLC 的一年后，将于 2020 年圣诞假期发售，独占登录 PS5、PS4。</p><h3><strong>《霍格沃茨：遗产（Hogwarts Legacy）》</strong></h3><iframe class=\"ss-videoIframe\" src=\"//player.bilibili.com/player.html?bvid=BV1KK4y1a7mh\"> </iframe><p>传言已久的「哈利·波特」世界观开放世界 ARPG 游戏，预计于 2021 年发售。本作的时间设定在 19 世纪，远早于《哈利·波特》小说主要描述的年代，玩家将作为一名握有古老秘密的巫师学徒入读霍格沃茨魔法学院，体验小说描绘的那个令人着迷的魔法世界。</p><h3><strong>《使命召唤：黑色行动 冷战（Call of Duty: Black Ops Cold War）》</strong></h3><iframe class=\"ss-videoIframe\" src=\"//player.bilibili.com/player.html?bvid=BV1gy4y1y7S5\"> </iframe><p>公开了一段全新的实机演示，内容为第一个战役任务的部分流程。这是一段十分靓丽的夜间战斗演示，光线追踪加持下的视觉效果非凡，厚重的音效也相当抓人，非常期待 3D 音频技术强化后的表现。本段演示秀出了次世代主机高强性能对演出效果的提升作用，其中出现了射击子弹时间特写、大量爆破及场景破坏、从人到遥控小车视角的无缝切换等桥段，而且始终保持了令人满意的帧数。</p><p>最后，开发团队还宣布了带给 PS 平台用户的福利：PS4 用户本周末就可以免费试玩到本作多人对战模式的 Alpha 测试，今天起就能预载。本作将于 2020 年 11 月发售。</p><h3><strong>《生化危机 8：村庄（Resident Evil 8: Village）》</strong></h3><iframe class=\"ss-videoIframe\" src=\"//player.bilibili.com/player.html?bvid=BV1jy4y1y7Sq\"> </iframe><p>本作是《生化危机》系列最新的正统续作，将续写前作主角伊森·温特斯的故事并画上句号。本次直播中公布了全新的剧情预告片，我们看到了所谓「村庄」的更多风貌细节，看到了丧尸的回归、更多敌人的露面。本作将于 2021 年发售，根据卡普空之前公示的安排，9 月 27 日还将有直播活动透露本作的更多信息。</p><h3><strong>《死亡循环（Deathloop）》</strong></h3><iframe class=\"ss-videoIframe\" src=\"//player.bilibili.com/player.html?bvid=BV1VZ4y1N7AF\"> </iframe><p>由 Arkane Studios（《羞辱（Dishonored）》系列）制作的 FPS 游戏，玩家身处在无限的时间循环中，需要从一次次尝试中寻找规律，解开时间迷局，试图破除循环、击杀制造循环的八个目标人物。从目前的预告片中我们还是不能梳理出清晰的玩法思路，但相对可以推测的是，本作会有一些「从死亡中学习」的要素，也将解密与动作射击做了有机的融合。本作预计于 2021 年发售，登录 PS5 和 PC 平台。</p><h3><strong>《鬼泣 5 特别版（Devil May Cry 5 Special Edition）》</strong></h3><iframe class=\"ss-videoIframe\" src=\"//player.bilibili.com/player.html?bvid=BV1w54y1m7iL\"> </iframe><p>可以理解为《鬼泣 5》的次世代升级版，将在 PS5 发售首日发售数字版，可以享受光线追踪、120FPS 等性能升级选项。以靠次世代的强大运算性能，本作加入了可以 1.2 倍速游玩的「Turbo Mode」、怪物大量生成的「Legendary Dark Knight Mode」；另外，人气超高的维吉尔将成为可操作角色。</p><h3><strong>《奇异世界：灵魂风暴（Oddworld: Soulstorm）》</strong></h3><iframe class=\"ss-videoIframe\" src=\"//player.bilibili.com/player.html?bvid=BV1dk4y1y73x\"> </iframe><p>一款大体线性的平台跳跃解谜游戏，由 Oddworld Inhabitants 担当开发，整个系列拥有趣味的独立世界观，故事风格也是富含哲理意味。本作早在 2016 年就宣布了开发计划，本次登台也没有宣布明确的发售时间，只提到了本作将会主机限时独占。</p><h3><strong>《玩具熊的五夜后宫：安防漏洞（Five nights at freddy’s: Security Breach）》</strong></h3><iframe class=\"ss-videoIframe\" src=\"//player.bilibili.com/player.html?bvid=BV1Ni4y1u7eV\"> </iframe><p>老牌恐怖生存游戏系列的最新作，主机限时独占，本次直播的预告片主要展示了一些游戏场景设计，能看到光线追踪带来的良好观感，我们也有理由相信，3D 音频技术可能会让游戏的惊悚感大幅跃升。</p><h3><strong>《恶魔之魂（Demon’s Souls）》</strong></h3><iframe class=\"ss-videoIframe\" src=\"//player.bilibili.com/player.html?bvid=BV1uf4y1D7CP\"> </iframe><p>首发护航、独占登录 PS5 平台的《恶魔之魂》完全重制版本，由「高品重制专业户」蓝点工作室打造，整个游戏可谓是脱胎换骨，看起来可能会成为 PS5 早期的旗舰级作品。本作不仅重塑了原作的视听体验，在玩法上应该也有相当可观的修缮提升，实机演示刚开头，主角就「俏皮地」使出了一个翻围栏跳下的动作，看起来像是在有意宣示突破原作框架的诚意。</p><h3><strong>《堡垒之夜（Fortnite）》</strong></h3><iframe class=\"ss-videoIframe\" src=\"//player.bilibili.com/player.html?bvid=BV1ji4y1u7d7\"> </iframe><p>本作将于 PS5 发售时免费登录。</p><h3><strong>PlayStation Plus Collection</strong></h3><iframe class=\"ss-videoIframe\" src=\"//player.bilibili.com/player.html?bvid=BV1Gi4y1u7sC\"> </iframe><p>PlayStation Plus 会员新权益，一个经典游戏合集包，囊括了《战神（God of War）》《血缘（Bloodborne）》《战地 1（Battlefield 1）》等近 20 款「定义 PS4 世代」的第一、第三方经典大作，持有会员资格的 PlayStation 5 用户在主机发售首日起就可享受。</p><h3><strong>PS5 售价公开：光驱版 499 美元、数字版 399 美元</strong></h3><iframe class=\"ss-videoIframe\" src=\"//player.bilibili.com/player.html?bvid=BV1z54y1C7jR\"> </iframe><p>在一段炫目的 PS5 主机三维动画后，屏幕定格在了 PS5 两款机型最终的售价上，含光驱的标准 PlayStation 5 售价 499 美元，与微软的高端款次世代主机 Xbox Series X（以下简称「XSX」）持平，而不含光驱的 PlayStation 5 数字版（Digital Edition）售价仅为 399 美元，比 XSX 的低配版 Xbox Series S（以下简称「XSS」）高出 100 美元。PS5 将于 11 月 12 日在美国、日本、加拿大、墨西哥、澳大利亚、新西兰、韩国率先上市，其余首发地区的上市时间为 11 月 19 日。</p><p>报价环节结束后，索尼互动娱乐总裁、CEO Jim Ryan 亮相，无不打趣地说道：「现在你们知道了吧（So now you know）。」 他向参加本次发布活动的参与者表达了诚挚的谢意，也在最后抛出了众多玩家翘首以待的「One more thing」……</p><h3><strong>《战神：诸神的黄昏（God of War: Ragnarok）》</strong></h3><iframe class=\"ss-videoIframe\" src=\"//player.bilibili.com/player.html?bvid=BV1hV411m7D2\"> </iframe><p>《战神》新作信息公布，将于 2021 年面世。本次的预告只给出了 Logo 和奎托斯的寥寥两句台词，但这也足以告诉我们，本作极大概率会续接上一部的北欧神话故事，就让我们一同期待该作能尽早到来吧。</p><p style=\"margin-left:0px;\">&gt; 下载少数派 <a href=\"https://sspai.com/page/client\">客户端</a>、关注 <a href=\"https://sspai.com/s/J71e\">少数派公众号</a>，找到数字时代更好的生活方式 🎊</p><p style=\"margin-left:0px;\">&gt; 特惠、好用的硬件产品，尽在 <a href=\"https://shop549593764.taobao.com/?spm=a230r.7195193.1997079397.2.2ddc7e0bPqKQHc\">少数派sspai官方店铺</a> 🛒</p>",
+    "keywords": "sony,索尼,ps,playstation,ps5",
+    "summary": "索尼以线上方式举办了「PlayStation 5 Showcase」，终于是不负众望，痛痛快快地给出了 PS5 的零售价，回应了亿万玩家对游戏阵容的关切。",
+    "summary_weibo": "索尼以线上方式举办了「PlayStation 5 Showcase」，终于是不负众望，痛痛快快地给出了 PS5 的零售价，回应了亿万玩家对游（来自 @少数派sspai）全文：",
+    "title": "索尼 PS5 主机定价公布，$399 vs $499 你会怎么选？",
+    "morning_paper_title": null,
+    "banner": "https://cdn.sspai.com/2020/09/17/9e33e05639f4aa237966732bae793199.jpg",
+    "author": {
+      "id": 0,
+      "slug": "vistaing",
+      "avatar": "2020/05/07/b14403192d2909451e19724aa9a053ca.png",
+      "nickname": "板斧",
+      "followed": false,
+      "bio": "主业金融投资，兴趣聚焦游戏与设计，想写点好的、有意思的；\n欢迎访问 http://markonreview.com/ 阅读更多内容，也欢迎通过「爱发电」平台支持我们：https://afdian.net/@markonreview",
+      "user_flags": [
+        {
+          "id": 10,
+          "key": "high_grade_writer",
+          "name": "高级作者",
+          "description": "高级作者",
+          "icon": "https://cdn.sspai.com/2020/02/22/3301ee6f3132e5262257f2a2aa0deec4.png",
+          "url": "",
+          "status": 1,
+          "weight": 3,
+          "color": "",
+          "type": 2,
+          "sub_type": 2,
+          "object_id": 0
+        }
+      ],
+      "user_badges": [],
+      "user_plan_flags": null
+    },
+    "author_seconds": [],
+    "tags": [
+      {
+        "id": 930,
+        "title": "游戏"
+      },
+      {
+        "id": 899,
+        "title": "Sony"
+      },
+      {
+        "id": 18619,
+        "title": "游戏机"
+      }
+    ],
+    "rtime": "09月17日",
+    "show_content_table": false,
+    "article_count": {
+      "comment_count": 34,
+      "like_count": 30,
+      "views_count": 0,
+      "show_views_count": false
+    },
+    "article_column": null,
+    "column_author": false,
+    "is_contributed_by_signed_writer": false,
+    "article_advertisement": null,
+    "promote_title": "索尼 PS5 主机定价公布，$399 vs $499 你会怎么选？",
+    "promote_image": "https://cdn.sspai.com/2020/09/17/9e33e05639f4aa237966732bae793199.jpg",
+    "allow_comment": true,
+    "sign_contract_request_fields": "主业金融投资，兴趣聚焦游戏与设计，想写点好的、有意思的；\n欢...",
+    "pub_date": "",
+    "thread": false,
+    "comment_file_on": false,
+    "article_follow_up_admin": {
+      "id": 0,
+      "slug": "aping",
+      "nickname": "揽件阿平"
+    },
+    "is_pay": false,
+    "is_free": true,
+    "series": null,
+    "special_columns": [],
+    "pre_artitle_id": 0,
+    "pre_article_title": "",
+    "next_artitle_id": 0,
+    "next_article_title": "",
+    "liked": false,
+    "favorited": false,
+    "probation": false,
+    "comments": null,
+    "video_info": "",
+    "video_code": "",
+    "video_platform_type": 0,
+    "post_type": 1,
+    "released_time": 1600337559,
+    "important": 1,
+    "corner": null,
+    "is_preview": false,
+    "article_limit_free": false,
+    "article_limit_free_stime": 0,
+    "article_limit_free_etime": 0,
+    "title_prefix": "",
+    "author_series_article_manage_on": false,
+    "copyright": true
+  },
+  "error": 0
+}

@@ -1,0 +1,128 @@
+{
+  "id": "2075293",
+  "name": "少数派",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8738253",
+      "name": "返 回",
+      "font_class": "fanhui",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "10550826",
+      "name": "评 论",
+      "font_class": "pinglun",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "2326569",
+      "name": "闹钟",
+      "font_class": "naozhong-",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "9734661",
+      "name": "收 藏",
+      "font_class": "shoucang",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "17105089",
+      "name": "refresh-line",
+      "font_class": "refresh-line",
+      "unicode": "e86c",
+      "unicode_decimal": 59500
+    },
+    {
+      "icon_id": "749507",
+      "name": "more",
+      "font_class": "more",
+      "unicode": "e816",
+      "unicode_decimal": 59414
+    },
+    {
+      "icon_id": "17102712",
+      "name": "award-fill",
+      "font_class": "award-fill",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
+    },
+    {
+      "icon_id": "17102713",
+      "name": "award-line",
+      "font_class": "award-line",
+      "unicode": "e6c1",
+      "unicode_decimal": 59073
+    },
+    {
+      "icon_id": "17103377",
+      "name": "phone-find-fill",
+      "font_class": "phone-find-fill",
+      "unicode": "e746",
+      "unicode_decimal": 59206
+    },
+    {
+      "icon_id": "17103379",
+      "name": "phone-find-line",
+      "font_class": "phone-find-line",
+      "unicode": "e747",
+      "unicode_decimal": 59207
+    },
+    {
+      "icon_id": "17102706",
+      "name": "archive-line",
+      "font_class": "archive-line",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    },
+    {
+      "icon_id": "17102708",
+      "name": "archive-fill",
+      "font_class": "archive-fill",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "17105082",
+      "name": "more-fill",
+      "font_class": "more-fill",
+      "unicode": "e869",
+      "unicode_decimal": 59497
+    },
+    {
+      "icon_id": "17105097",
+      "name": "search-2-line",
+      "font_class": "search-2-line",
+      "unicode": "e86e",
+      "unicode_decimal": 59502
+    },
+    {
+      "icon_id": "17105129",
+      "name": "more-line",
+      "font_class": "more-line",
+      "unicode": "e877",
+      "unicode_decimal": 59511
+    },
+    {
+      "icon_id": "17105276",
+      "name": "user-3-line",
+      "font_class": "user-3-line",
+      "unicode": "e888",
+      "unicode_decimal": 59528
+    },
+    {
+      "icon_id": "17105277",
+      "name": "user-3-fill",
+      "font_class": "user-3-fill",
+      "unicode": "e889",
+      "unicode_decimal": 59529
+    }
+  ]
+}
