@@ -2,7 +2,9 @@
     <div id="home">
         <keep-alive>
             <div class="content">
-                <router-view></router-view>
+                <keep-alive>
+                    <router-view></router-view>
+                </keep-alive>
             </div>
         </keep-alive>
 
