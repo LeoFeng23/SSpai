@@ -1,12 +1,12 @@
 <template>
     <div id="topNav">
-        <span>
+        <span class="left-container">
             <slot name="leftBox"></slot>
         </span>
         <span class="title">
             <slot name="midBox" class="title"></slot>
         </span>
-        <span>
+        <span class="right-container">
             <slot name="rightBox" ></slot>
         </span>
     </div>
@@ -55,6 +55,9 @@ export default {
     font-size: 20px;
   }
 
+  .left-container, .right-container {
+    min-width: 20px;
+  }
 
 }
 </style>
