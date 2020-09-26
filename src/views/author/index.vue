@@ -1,25 +1,25 @@
 <template>
-    <div class="author-page">
+    <div class="author-page" v-if="hasLoaded">
         <top-nav>
             <template #leftBox>
                 <span :class="`button-left iconfont icon-fanhui`" @click="backToHomePage"></span>
             </template>
             <template #midBox>
-                <span>一加正式确认 OnePlus 8T 即将发布一加正式确认 OnePlus 8T 即将发布</span>
+                <span>{{ authorInfo.nickname }}</span>
             </template>
             <template #rightBox>
 
             </template>
         </top-nav>
         <div class="author-info">
-            <com-img class="author-info-avatar-img" src="2018/03/25/ce2a784deb3097acb6ee9d37ea0c13ea.jpg"></com-img>
+            <com-img class="author-info-avatar-img" :src="authorInfo.avatar"></com-img>
             <div class="words-and-sup-num">
                 <div class="words-count">
-                    <span class="words-num">569千</span>
+                    <span class="words-num">{{ authorInfo.articles_word_count }}</span>
                     <span class="info-unit">写作字数</span>
                 </div>
                 <div class="sup-count">
-                    <span class="sup-num">743</span>
+                    <span class="sup-num">{{ authorInfo.liked_count }}</span>
                     <span class="info-unit">获赞数</span>
                 </div>
             </div>
@@ -47,32 +47,40 @@
 import TopNav from "@/components/common/TopNav";
 import ComImg from "@/components/common/comImg";
 import IScroll from 'iscroll/build/iscroll-probe'
+import {mapState} from "vuex";
 
 export default {
     name: "index",
     components: {ComImg, TopNav},
     data() {
         return {
-            scroll: {}
+            scroll: {},
+            hasLoaded: false
         }
+    },
+    computed: {
+        ...mapState({
+            authorInfo: state => state.authorStoreModule.authorInfo
+        })
     },
     methods: {
         backToHomePage() {
             this.$router.back();
-        }
+        },
+
     },
+    created() {
+        this.$store.dispatch('authorStoreModule/requestAuthorInfo', {
+            slug: this.$route.params.slug
+        }).then(resolve => {
+            this.hasLoaded = true;
+        }).catch((reject) => {
+            this.hasLoaded = false;
+        })
+    },
+
     mounted() {
-        this.scroll = new IScroll(this.$refs.publishContent, {
-            tap: true,
-            click: true,
-            probeType: 3
-        });
 
-        this.scroll.on('beforeScrollStart', () => {
-            this.scroll.refresh();
-        });
-
-        this.scroll.refresh();
     }
 }
 </script>

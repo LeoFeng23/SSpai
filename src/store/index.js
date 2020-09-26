@@ -3,6 +3,7 @@ import Vuex from 'vuex'
 import HomePageBanner from "@/views/HomePage/store/HomePageBanner";
 import newsData from "@/views/HomePage/store/newsData";
 import infoDetail from "@/views/InformationDetail/store/infoDetail";
+import authorStoreModule from "@/views/author/store/authorStoreModule";
 
 Vue.use(Vuex)
 
@@ -16,6 +17,7 @@ export default new Vuex.Store({
   modules: {
     HomePageBanner,
     newsData,
-    infoDetail
+    infoDetail,
+    authorStoreModule,
   }
 })

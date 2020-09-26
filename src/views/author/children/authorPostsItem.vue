@@ -3,8 +3,8 @@
         <div class="news-title-block">
             <!--            @click="toAuthorPage(newsItemData.author.slug)"-->
             <div class="author-info">
-                <com-img :src="'2018/03/25/ce2a784deb3097acb6ee9d37ea0c13ea.jpg'" class="avatar"></com-img>
-                <span class="author-name">asfasfasf</span>
+                <com-img :src="contentData.author.avatar" class="avatar"></com-img>
+                <span class="author-name">{{ contentData.author.nickname }}</span>
             </div>
             <div class="article-handle">
                 <span class="more-action-btn iconfont icon-more-fill"></span>
@@ -15,26 +15,26 @@
             <div class="news-content">
                 <div class="news-des">
                     <span class="news-des-text">
-                        沙发沙发上as发顺丰阿发as发asas发asSasASas发顺丰as发生啊冯生撒
+                        {{ contentData.title }}
                     </span>
                 </div>
-                <com-img :src="'2020/09/18/cc42ece9bbfd51adf856c436be6bac51.png'" class="news-banner"></com-img>
+                <com-img :src="contentData.banner" class="news-banner"></com-img>
             </div>
             <div class="news-item-footer">
                 <div class="comment-info">
                     <div class="like-count">
                         <i class="news-item-footer-icon iconfont icon-shoucang"></i>
-                        <span class="like-count-num">5</span>
+                        <span class="like-count-num">{{ contentData.like_count }}</span>
                     </div>
                     <div class="sep">·</div>
                     <div class="comment-count">
-                        <span class="comment-count-num">6</span>
+                        <span class="comment-count-num">{{ contentData.comment_count }}</span>
                         <span class="comment-count-postfix">评论</span>
                     </div>
                 </div>
                 <div class="publish-time">
                     <i class="news-item-footer-refresh iconfont icon-refresh-line"></i>
-                    <strong class="publish-time-hours">13小时前</strong>
+                    <strong class="publish-time-hours">{{ sinceTime(contentData.modify_time) }}</strong>
                 </div>
             </div>
         </div>
@@ -43,10 +43,19 @@
 
 <script>
 import ComImg from "@/components/common/comImg";
+import {mapState} from "vuex";
 
 export default {
     name: "authorPostsItem",
     components: {ComImg},
+    props: {
+        contentData: {
+            type: Object,
+            required: true
+        }
+    },
+    computed: {
+    },
     methods: {
         sinceTime: function (time) {
             let timeDiff = Date.now() - (time = time * 1000);
@@ -64,7 +73,6 @@ export default {
                 return timeLeft + "分钟前推荐过";
             }
             timeLeft = timeDiff % 24;// 计算小时
-            console.log('hours', timeDiff)
             timeDiff = Math.floor(timeDiff / 24);
             if (timeDiff === 0) {
                 return timeLeft + "小时前推荐过";
