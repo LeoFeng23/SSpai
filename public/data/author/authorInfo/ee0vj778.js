@@ -1,4 +1,4 @@
-{
+export default {
   "error": 0,
   "data": {
     "nickname": "少数派编辑部",

@@ -12,3 +12,7 @@ export const ARTICLE_DETAIL = '/article/info/get';
 export const AUTHOR_INFO = 'user/slug/info/get';
 
 export const AUTHOR_POSTS = 'article/user/public/page/get';
+
+export const DISCOVER_DIGEST = 'topic/search/page/get';
+
+export const PROGRAM = 'series/search/page/get';

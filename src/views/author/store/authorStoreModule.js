@@ -23,7 +23,6 @@ export default {
                 slug: payload.slug
             });
             if (status >= 200 && status < 300) {
-                console.log(data);
                 store.commit('refreshAuthorInfo', data.data);
             }
         },
@@ -34,6 +33,7 @@ export default {
                 slug: payload.slug
             });
             if (status >= 200 && status < 300) {
+                console.log('post', data.data)
                 store.commit('refreshAuthorPostsList', data.data);
             }
         }

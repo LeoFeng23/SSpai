@@ -7,12 +7,7 @@
         </TopNav>
         <div class="inner-content" ref="innerContent">
             <div class="scroll-box">
-                <discover-item></discover-item>
-                <discover-item></discover-item>
-                <discover-item></discover-item>
-                <discover-item></discover-item>
-                <discover-item></discover-item>
-                <discover-item></discover-item>
+                <discover-item v-for="item in discoverDigest" :key="item.id" :content-data="item"></discover-item>
             </div>
         </div>
     </div>
@@ -20,30 +15,48 @@
 
 <script>
 
-import InnerPageContent from "@/components/common/InnerPageContent";
 import TopNav from "@/components/common/TopNav";
 import DiscoverItem from "@/views/Discover/children/DiscoverItem";
 import IScroll from "iscroll/build/iscroll-probe";
+import {mapState} from "vuex";
 
 
 export default {
     name: "index",
     components: {
         DiscoverItem,
-        InnerPageContent,
         TopNav
     },
-    mounted() {
-        this.iscroll = new IScroll(this.$refs.innerContent, {
-            bounce: true,
-            click: true,
-            tap: true,
-            probeType: 3
-        });
+    data() {
+        return {
+            hasLoaded: false
+        }
+    },
+    computed: {
+        ...mapState({
+            discoverDigest: state => state.discoverStore.discoverDigest,
+        })
+    },
+    created() {
+        this.$store.dispatch('discoverStore/requestDiscoverDigest', {}).then(() => {
+            this.hasLoaded = true
+        }).then(() => {
+            const iscroll = new IScroll(this.$refs.innerContent, {
+                bounce: true,
+                click: true,
+                tap: true,
+                probeType: 3
+            });
 
-        this.iscroll.on('beforeScrollStart', () => {
-            this.iscroll.refresh();
-        });
+            iscroll.on('beforeScrollStart', () => {
+                iscroll.refresh();
+            });
+        }).catch(() => {
+            this.hasLoaded = false
+        })
+    },
+    mounted() {
+
     }
 }
 </script>

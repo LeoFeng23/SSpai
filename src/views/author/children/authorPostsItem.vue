@@ -1,5 +1,5 @@
 <template>
-    <div class="author-post-item">
+    <div class="author-post-item" @click="goArticleDetail(contentData.id)">
         <div class="news-title-block">
             <!--            @click="toAuthorPage(newsItemData.author.slug)"-->
             <div class="author-info">
@@ -54,8 +54,7 @@ export default {
             required: true
         }
     },
-    computed: {
-    },
+    computed: {},
     methods: {
         sinceTime: function (time) {
             let timeDiff = Date.now() - (time = time * 1000);
@@ -87,6 +86,12 @@ export default {
 
             }
         },
+
+        goArticleDetail(id) {
+            this.$router.push({
+                path: `/post/${id}`
+            });
+        }
     }
 }
 </script>

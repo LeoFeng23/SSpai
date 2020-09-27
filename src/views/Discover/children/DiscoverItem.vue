@@ -1,11 +1,10 @@
 <template>
-    <div class="discover-item">
+    <div class="discover-item" v-if="contentData">
         <div class="item-banner-box">
             <com-img
-                    src="https://cdn.sspai.com/topic/bbaee48f-7c5d-2e94-3f80-16f3705ba54c.jpg?imageMogr2/auto-orient/quality/95/thumbnail/!744x400r/gravity/Center/crop/744x400/interlace/1"
-                    :with-prefix="false"></com-img>
+                    :src="contentData.banner" :postfix="postfix"></com-img>
             <div class="discover-item-title">
-                <span class="item-title-text">Mac 视觉史：从系统界面了解 Mac 电脑历史</span>
+                <span class="item-title-text">{{ contentData.title }}</span>
             </div>
         </div>
 
@@ -18,7 +17,18 @@ import ComImg from "@/components/common/comImg";
 
 export default {
     name: "DiscoverItem",
-    components: {ComImg}
+    components: {ComImg},
+    props: {
+        contentData: {
+            type: Object,
+            required: true
+        }
+    },
+    data() {
+        return {
+            postfix: "?imageMogr2/auto-orient/quality/95/thumbnail/!744x400r/gravity/Center/crop/744x400/interlace/1",
+        }
+    }
 }
 </script>
 

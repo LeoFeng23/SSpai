@@ -35,7 +35,7 @@ export default {
     },
     computed: {
         ...mapState({
-            authorPostsList: state => state.authorStoreModule.authorPostsList.data
+            authorPostsList: state => state.authorStoreModule.authorPostsList
         })
     },
     created() {

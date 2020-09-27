@@ -6,10 +6,10 @@
             </template>
         </TopNav>
         <div class="message-nav">
-            <router-link :to="{name: 'AuthorUpdates'}" class="message-nav-link" replace>
+            <router-link :to="{name: 'PrivateMessage'}" class="message-nav-link" replace>
                 <span class="link-text">通知</span>
             </router-link>
-            <router-link :to="{name: 'AuthorPosts'}" class="message-nav-link" replace>
+            <router-link :to="{name: 'Notification'}" class="message-nav-link" replace>
                 <span class="link-text">私信</span>
             </router-link>
         </div>

@@ -20,7 +20,20 @@ const routes = [
         }, {
             path: '/cart',
             name: 'Cart',
-            component: () => import(/* webpackChunkName: "cart" */ '../views/Cart/index')
+            component: () => import(/* webpackChunkName: "cart" */ '../views/Cart/index'),
+            redirect: '/cart/private/message',
+            children: [
+                {
+                    path: 'private/message',
+                    name: 'PrivateMessage',
+                    component: () => import(/* webpackChunkName: "privateMessage" */ '../views/Cart/children/privateMessage'),
+                },
+                {
+                    path: 'notification',
+                    name: 'Notification',
+                    component: () => import(/* webpackChunkName: "notification" */ '../views/Cart/children/notification'),
+                },
+            ]
         }, {
             path: '/userinfo',
             name: 'UserInfo',

@@ -1,6 +1,8 @@
 import http from "@/api/http";
 import {HOST, HOMEPAGE_BANNER} from "@/api/Url";
 import axios from 'axios'
+import programStore from "@/views/HomePage/store/programStore";
+
 
 export default {
     namespaced: true,
@@ -29,5 +31,8 @@ export default {
                 throw new Error("请求失败");
             }
         }
+    },
+    module: {
+        programStore
     }
 }
