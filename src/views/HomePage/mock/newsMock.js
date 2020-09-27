@@ -1,7 +1,8 @@
 import Mock from 'mockjs'
-import {NEWS} from "@/api/Url";
+import {NEWS, PROGRAM} from "@/api/Url";
 import result from "../../../../public/data/result";
 import newsData from "../../../../public/data/article.js";
+import MockUtil from "@/utils/MockUtil";
 
 Mock.mock(new RegExp(NEWS), (options) => {
     result.data = newsData;
@@ -12,11 +13,6 @@ Mock.mock(new RegExp(NEWS), (options) => {
     return result;
 })
 
-function parse_url(url){ //定义函数
-    const pattern = /(\w+)=(\w+)/ig;//定义正则表达式
-    const params = {};//定义数组
-    url.replace(pattern, function(a, b, c){
-        params[b] = c;
-    });
-    return params;//返回这个数组.
-}
+MockUtil.mockData(PROGRAM, '', () => {
+    return require('../../../../public/data/program/programDigest/program').default;
+})

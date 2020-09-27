@@ -32,7 +32,7 @@ export default {
             }
         }
     },
-    module: {
+    modules: {
         programStore
     }
 }

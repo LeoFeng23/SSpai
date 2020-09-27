@@ -17,7 +17,8 @@ export default {
     data() {
         return {
             firstNewsItem: {},
-            newsDataList: {}
+            newsDataList: {},
+            programLoaded: false
         }
     },
     computed: {
@@ -32,6 +33,10 @@ export default {
             this.newsDataList = JSON.parse(JSON.stringify(this.newsList));
             this.firstNewsItem = this.newsDataList.splice(0, 1)[0];
         });
+        this.$store.dispatch('HomePageBanner/programStore/requestProgramList', {})
+            .then(() => {
+                this.programLoaded = true;
+            })
     },
     mounted() {
 
@@ -42,11 +47,11 @@ export default {
 
 <style scoped lang="scss">
 #newsBlock {
-  width: 100%;
-  height: 100%;
-  //padding: 0 13px 0;
-  padding: 0 13px;
-  box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    //padding: 0 13px 0;
+    padding: 0 13px;
+    box-sizing: border-box;
 }
 
 </style>

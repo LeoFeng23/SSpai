@@ -75,6 +75,9 @@ export default {
             bannerList: state => state.HomePageBanner.bannerList,
         })
     },
+    created() {
+
+    },
     mounted() {
         this.$store.dispatch("HomePageBanner/requestBannerData", {
             offset: 0,
@@ -108,35 +111,35 @@ export default {
 <style scoped lang="scss">
 
 .inner-content {
-  position: absolute;
-  top: 40px;
-  bottom: 0;
-  width: 100%;
-  overflow: hidden;
-  box-sizing: border-box;
-  padding-top: 5px;
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: 5px;
 }
 
 .banner {
-  width: 100%;
-  height: 125px;
-
-  .banner-container {
-    height: 100%;
     width: 100%;
+    height: 125px;
 
-    .banner-item {
-      border-radius: 10px;
-      overflow: hidden;
-
-      .banner-item-img {
-        width: 100%;
+    .banner-container {
         height: 100%;
-      }
+        width: 100%;
+
+        .banner-item {
+            border-radius: 10px;
+            overflow: hidden;
+
+            .banner-item-img {
+                width: 100%;
+                height: 100%;
+            }
+
+        }
 
     }
-
-  }
 }
 </style>
 

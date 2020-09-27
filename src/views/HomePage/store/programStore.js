@@ -1,5 +1,5 @@
 import http from "@/api/http";
-
+import {PROGRAM} from "@/api/Url";
 
 
 export default {
@@ -10,7 +10,10 @@ export default {
     },
     actions: {
         async requestProgramList(store, payload) {
-
+            const {status, data} = await http.get(PROGRAM, {});
+            if (status >= 200 && status < 300) {
+                console.log(data);
+            }
         }
     }
 }
